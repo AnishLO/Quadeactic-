@@ -1,5 +1,7 @@
 package org.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,10 +9,18 @@ public class Main {
 	    // todo declare variable a,b,c,discriminant, axisOfSymmetry,parabolFacing,x,y
         double a,b,c,discrimint,axisOfsmmetry,x,y;
         String parabolaFacing;
+        Scanner rader;
         //todo initialize manually
-        a=5;
+        rader = new Scanner(System.in);
+        System.out.println("Give me an A");
+        a = rader.nextDouble();
+        System.out.println("Give me an B");
+        b = rader.nextDouble();
+        System.out.println("Give me an C");
+        c = rader.nextDouble();
+       /* a=5;
         b=3;
-        c=1;
+        c=1;*/
         //todo do calculation
         axisOfsmmetry = -b/(2*a);
         discrimint = (b*b)-4*(a*c);
