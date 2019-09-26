@@ -14,6 +14,15 @@ public class Main {
         //todo do calculation
         axisOfsmmetry = -b/(2*a);
         discrimint = (b*b)-4*(a*c);
+        if(discrimint >0){
+            System.out.println("There are two real solution");
+        }
+        else if(discrimint ==0){
+            System.out.println("There is one real solution ");
+        }
+        else{
+            System.out.println("There are No real solution ");
+        }
         //todo print results
         System.out.println("Axis of smmetry: "+axisOfsmmetry);
         System.out.println("discrimint: "+discrimint);
