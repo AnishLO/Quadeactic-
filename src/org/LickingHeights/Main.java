@@ -15,7 +15,8 @@ public class Main {
         axisOfsmmetry = -b/(2*a);
         discrimint = (b*b)-4*(a*c);
         //todo print results
-
+        System.out.println("Axis of smmetry: "+axisOfsmmetry);
+        System.out.println("discrimint: "+discrimint);
         //todo not code check results
 
         //todo initiialize scanner and redo the initialize
