@@ -3,9 +3,10 @@ package org.LickingHeights;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-	    // todo declare variable a,b,c,discriminant, axisOfSymmetry,parabolFacing,x,y
 
+	    // todo declare variable a,b,c,discriminant, axisOfSymmetry,parabolFacing,x,y
+        double a,b,c,discrimint,axisOfsmmetry,x,y;
+        String parabolaFacing;
         //todo initialize manually
 
         //todo do calculation
