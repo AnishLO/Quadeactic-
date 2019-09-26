@@ -12,7 +12,8 @@ public class Main {
         b=3;
         c=1;
         //todo do calculation
-
+        axisOfsmmetry = -b/(2*a);
+        discrimint = (b*b)-4*(a*c);
         //todo print results
 
         //todo not code check results
